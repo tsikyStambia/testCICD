@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc:process xmlns:proc="http://www.example.org/proc" id="46b557ef-ae02-4e7a-8d5c-3a65ea7c65eb">
+  <parameter id="d77877f3-b670-4c46-a93b-4dfbb2ee7e32" name="fileName" type="String"/>
+  <actionCode id="71aa12fb-50ba-4adf-b47b-206ebbc3bc7d" isBeginAction="false" name="WriteTxtFile" nbCycles="-1" toleratedError="false" technology="com.indy.engine.actionCodes.WriteTxtFileActionCodeI">
+    <parameter id="a14da8d2-821a-4924-af02-3ff8cfb0dcb1" name="TXT_WRITE_FILENAME" type="String" value="${~/fileName}$.txt"/>
+    <code>Je suis ${~/fileName}$.</code>
+  </actionCode>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:proc="http://www.example.org/proc" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation http://www.eclipse.org/gmf/runtime/1.0.3/notation#/?fileId=46b557ef-ae02-4e7a-8d5c-3a65ea7c65eb?" xmi:id="_dSg-QPhwEeybEYElJgSbwA" type="Proc" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_eerPYPhwEeybEYElJgSbwA" type="2005">
+    <children xmi:type="notation:Node" xmi:id="_eeu5wPhwEeybEYElJgSbwA" type="5005"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eerPYfhwEeybEYElJgSbwA" fontName="Segoe UI"/>
+    <element xmi:type="proc:Parameter" href="resource.proc#d77877f3-b670-4c46-a93b-4dfbb2ee7e32?fileId=46b557ef-ae02-4e7a-8d5c-3a65ea7c65eb$type=proc$name=fileName?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eerPYvhwEeybEYElJgSbwA" x="708" y="99"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_hJ3DQPhwEeybEYElJgSbwA" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_hJ44cPhwEeybEYElJgSbwA" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_hJ6GkPhwEeybEYElJgSbwA" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_hJ6GkfhwEeybEYElJgSbwA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hJ6GkvhwEeybEYElJgSbwA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hJ6Gk_hwEeybEYElJgSbwA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_hJ6toPhwEeybEYElJgSbwA" type="7002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_hJ6tofhwEeybEYElJgSbwA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hJ6tovhwEeybEYElJgSbwA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hJ6to_hwEeybEYElJgSbwA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_hJ3DQfhwEeybEYElJgSbwA" fontName="Segoe UI"/>
+    <element xmi:type="proc:ActionCode" href="resource.proc#71aa12fb-50ba-4adf-b47b-206ebbc3bc7d?fileId=46b557ef-ae02-4e7a-8d5c-3a65ea7c65eb$type=proc$name=WriteTxtFile?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hJ3DQvhwEeybEYElJgSbwA" x="326" y="221"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_dSg-QfhwEeybEYElJgSbwA"/>
+  <element xmi:type="proc:ActionProcess" href="resource.proc#46b557ef-ae02-4e7a-8d5c-3a65ea7c65eb?fileId=46b557ef-ae02-4e7a-8d5c-3a65ea7c65eb$type=proc$name=003_Generate_File?"/>
+</notation:Diagram>
+]]></diagram>
+</proc:process>
